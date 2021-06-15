@@ -67,7 +67,7 @@ While the simulation is running every component, for example ALU or Register Fie
   * BL
   * all misscellaneous instructions
 ## Acknowledgements
-The processor is based on the design proposed by Harris & Harris in their book *Digital Design and Computer Architecture : ARM Edition* [[3]](#links) and was implemented at the TU Darmstadt for use in the course 'Rechnerorganisation' in the SS21. 
+The processor is based on the design proposed by Harris & Harris in their book *Digital Design and Computer Architecture : ARM Edition* [[3]](#links) and the ARM material by Dr. Wolfgang Heenes [[4]](#links) was implemented at the TU Darmstadt for use in the course 'Rechnerorganisation' in the SS21. 
 Feel free to use or extend this project in any non-commercial or educational project or course, but cite this project as 
 > David Eckhardt. *ARMv7-Logisim*, TU Darmstadt, 2021. https://github.com/TeflonAntihaft/ARMv7-Logisim 
 
@@ -77,4 +77,5 @@ Feel free to use or extend this project in any non-commercial or educational pro
 ## <a name = "links"></a> Links
 [1] http://www.cburch.com/logisim/de/index.html \
 [2] https://developer.arm.com/documentation/ddi0406/latest/ \
-[3] Harris, Sarah, and David Harris. *Digital Design and Computer Architecture : ARM Edition*, Elsevier Science & Technology, 2015. ProQuest Ebook Central, https://ebookcentral.proquest.com/lib/ulbdarmstadt/detail.action?docID=5754460.
+[3] Harris, Sarah, and David Harris. *Digital Design and Computer Architecture : ARM Edition*, Elsevier Science & Technology, 2015. ProQuest Ebook Central, https://ebookcentral.proquest.com/lib/ulbdarmstadt/detail.action?docID=5754460. \
+[4] http://www.heenes.de/ro/material/arm/arm-instructionset.pdf 
