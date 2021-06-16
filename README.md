@@ -30,7 +30,7 @@ The processor ROM is by default loaded with the following short ARM 32bit progra
   1c:   1afffffc        bne     14 <loop>
 ```
 
-The programm can be changed by selecting the ROM element and selecting ```Contents -> (click to edit)``` from the element attributes window on the left side. The compiled machine code, for example via ```arm-linux-gnueabihf-as```, can now either be typed in by hand by clicking each singe cell or pasted in from the clipboard.
+The programm can be changed by selecting the ROM element and selecting ```Contents -> (click to edit)``` from the element attributes window on the left side. The compiled machine code, for example via ```arm-linux-gnueabihf-as```, can now either be typed in by hand by clicking each singe cell or pasted in from the clipboard. Examples can be found in this repository in the folder ```../examples/```. Just use *CTRL + A* to select all instructions, copy them by *CTRL + C*, then click into the Hex-Editor window and press *CTRL + V* to past them. Rember to first clear all old instructions from the ROM has the new ones will only be pasted 'on-top'. 
 
 The simulation can then be started by ticking  ``` Simulate -> Simulation Enabeled ``` and then run either by doing single-cycle steps with ``` Simulate -> Tick Once``` or by enabeling automatic ticking by a given frequency by selecting ```Simulate -> Ticks Enabeled```. 
 While the simulation is running every component, for example ALU or Register Field but also every cable, can be inspected by using the 'Peek and Poke' tool from the upper right tool selection bar by either clicking on a cable or double-cklicking an a structure. 
