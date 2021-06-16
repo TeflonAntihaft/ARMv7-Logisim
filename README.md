@@ -8,6 +8,7 @@ ARMv7 Single-Cycle processor implementation in Logisim [[1]](#links)
 - loadable ROM, RAM, 15 + 1 cell Register Field, ALU and Control Unit
 - support for all basic arithmetic commands, memory access and basic flow control [[full list]](#supported-commands)
 - conditional execution
+- shifted second operant support
 - fully complient to the ARMv7 specifications [[2]](#links)
 
 ## Getting Started
